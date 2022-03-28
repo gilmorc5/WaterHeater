@@ -8,7 +8,6 @@
 // SYSTEM INCLUDES
 #include <stdio.h>
 
-
 // USER HEADER FILES
 #include "main.h"
 #include "sensor.h"
@@ -19,7 +18,9 @@ extern char helloWorld[];
 
 int main(void) {
 	printf(helloWorld);
-	printf("\nValue = %d", testFromControldotH); // %u used for calling uintX_t variables
+	printf("\nValue = %d\n", testFromControldotH); // %u used for calling uintX_t variables
+	testFunction();
+	printValues();
 	return 0;
 }
 // PROTOTYPES
