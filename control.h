@@ -4,12 +4,11 @@
 * Reads from sensor.h and control valves.
 */
 
-#ifndef CONTROL.h
-#define CONTROL.h
+#ifndef CONTROL_H
+#define CONTROL_H
 
 
 
-
-#endif /* CONTROL.h */
+#endif /* CONTROL_H */
 
 /******* EOF *********/

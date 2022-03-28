@@ -7,9 +7,6 @@
 
 // SYSTEM INCLUDES
 #include <stdio.h>
-#include <cstdint.h>
-#include <semaphore.h>
-#include <threads.h>
 
 
 // USER HEADER FILES
@@ -18,19 +15,11 @@
 #include "control.h"
 
 // VARIABLES
-int var3;
-
+extern char helloWorld[];
 
 int main(void) {
-	while (1)
-	{
-		// Constatly running tasks/functions
-
-	}
+	printf(helloWorld);
+	printf("\nValue = %d", testFromControldotH); // %u used for calling uintX_t variables
+	return 0;
 }
 // PROTOTYPES
-int printOut(void) {
-	// Display values
-
-
-}
